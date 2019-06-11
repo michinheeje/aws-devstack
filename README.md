@@ -1,4 +1,6 @@
 # aws-openstack
+인스턴스는 t2.xlarge 추천함 왜냐하면 과금 크리 때</br>
+OS는 Ubuntu Server 16.04 LTS (HVM), SSD Volume Type - ami-0d4d670cc80f5ffcb
 `sudo apt-get update; sudo apt-get updgrade; sudo apt-get dist-upgrade`</br>
 `sudo reboot`</br>
 `sudo -i`</br>
