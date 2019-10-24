@@ -1,4 +1,3 @@
-# aws-openstack
 ## 준비물
 AWS 계정
 
@@ -38,16 +37,13 @@ AWS 계정
 `cd devstack/`</br>
 `ls`</br>
 `sudo nano local.conf`</br>
-</br>
 `ADMIN_PASSWORD=1234`</br>
 `DATABASE_PASSWORD=1234`</br>
 `RABBIT_PASSWORD=1234`</br>
 `SERVICE_PASSWORD=1234`</br>
-</br>
 `echo "enable_plugin sahara git://github.com/openstack/sahara" >> local.conf`</br>
 `echo "enable_plugin sahara-dashboard git://github.com/openstack/sahara-dashboard" >> local.conf`</br>
 `echo "enable_plugin ceilometer git://github.com/openstack/ceilometer" >> local.conf`</br>
-</br>
 `./stack.sh`
 
 12. 20분 정도 기다리시면 데브스택이 됩니다.
