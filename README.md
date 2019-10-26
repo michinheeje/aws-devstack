@@ -1,4 +1,4 @@
-# aws-openstack
+# aws-devstack
 
 ## 준비물
 AWS 계정
