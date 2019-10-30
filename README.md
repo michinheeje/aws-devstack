@@ -28,6 +28,7 @@ AWS 계정
 11. SSH를 username은 ubuntu입니다.
 
 12. 인스턴스가 생성이 되면 다음과 같이 명령어를 기입해 주세요.</br>
+`sudo apt-get update; sudo apt-get updgrade; sudo apt-get dist-upgrade`</br>
 `sudo reboot`</br>
 `sudo -i`</br>
 `adduser stack`</br>
